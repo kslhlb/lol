@@ -13,7 +13,7 @@ fps = pygame.time.Clock()
 
 def draw():
     sc.fill((150, 135, 140))
-    pygame.draw.circle(sc, ((120, 150, 230)), (x, y), 70)
+    pygame.draw.circle(sc, ((150, 150, 230)), (x, y), 70)
     pygame.draw.rect(sc, ((120, 130, 250)), (x1, y1, 100, 100))
     pygame.draw.ellipse(sc, ((150, 120, 230)), (300, 350, 100, 150))
     pygame.display.update()
